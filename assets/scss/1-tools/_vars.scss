@@ -2,47 +2,31 @@
 // Add whatever variables you would like made available to the whole app
 //
 
-$primary-color : #fbc92c;
-$on-primary-color : #2f2300;
-$secondary-color : #d8ab56;
-$on-secondary-color : #271A00;
-$tertiary-color : #f25f11;
-$on-tertiary-color : #3e1500;
+$primary-color: #405fcd;
+$on-primary-color: #000000;
+$secondary-color: #e7f2fd;
+$on-secondary-color: #271a00;
 
 // Selection Color
-$primary-selection-color : $primary-color ; //Used in selection-colors.scss
-
-// Gradients
-$gradient-primary:  linear-gradient(135.66deg, #FFDE78 3.09%, #FBC92C 57.94%);
-$gradient-secondary:  linear-gradient(134.99deg, #FBC92C 20.31%, #F25F11 100%);
-
-@mixin text-gradient {
-  -webkit-text-stroke: 0px transparent;
-  background: linear-gradient(135.66deg, #FFDE78 3.09%, #FBC92C 57.94%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-}
+$primary-selection-color: $primary-color; //Used in selection-colors.scss
 
 // Gray Scale
-$white:  #ffffff;
-$grey-0:  #d3d3d3;
-$grey-1:  #8c8c8c;
-$grey-2:  #5b5b5b;
-$grey-3:  #363636;
-$grey-4:  #1e1e1e;
-$grey-5:  #141414;
-$grey-6:  #0c0c0c;
-$black:  #000000;
+$white: #ffffff;
+$grey-0: #d3d3d3;
+$grey-1: #8c8c8c;
+$grey-2: #5b5b5b;
+$grey-3: #363636;
+$grey-4: #1e1e1e;
+$grey-5: #141414;
+$grey-6: #0c0c0c;
+$black: #000000;
 
 // Pastels
-$rose:  #f67c7c;
-$green:  #3fe155;
-$yellow:  #ffc923;
-$blue:  #1560d4;
-$lavender:  #6272c7;
-
+$rose: #f67c7c;
+$green: #3fe155;
+$yellow: #ffc923;
+$blue: #1560d4;
+$lavender: #6272c7;
 
 // Media Query BreakPoints
 $xsmall-576-max: 576px;
