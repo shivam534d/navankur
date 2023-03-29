@@ -5347,6 +5347,76 @@ section.reach-child-potential .heading {
 }
 section.reach-child-potential .sub-heading {
   font-weight: 300;
+  margin-bottom: 50px;
+}
+section.reach-child-potential .content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 120px;
+}
+section.reach-child-potential .content-container .key-points {
+  max-width: 900px;
+}
+section.reach-child-potential .content-container .key-points .info-card {
+  background-color: #fafcff;
+  padding: 30px 250px 30px 30px;
+}
+section.reach-child-potential .content-container .key-points .info-card h2 {
+  margin: 0px 0px 15px 0px;
+}
+section.reach-child-potential .content-container .key-points .info-card:first-child {
+  background-color: #edf6ff;
+}
+section.reach-child-potential .content-container .video-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  max-width: 450px;
+  position: absolute;
+  right: 50px;
+}
+section.reach-child-potential .content-container .video-card .thumbnail-container {
+  position: relative;
+}
+section.reach-child-potential .content-container .video-card .thumbnail-container .overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+section.reach-child-potential .content-container .video-card .thumbnail-container .overlay img {
+  max-width: 50px;
 }
 
 section.profectum-families {
