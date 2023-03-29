@@ -161,6 +161,11 @@ textarea {
   font-family: "Poppins", sans-serif;
 }
 
+@media (max-width: 426px) {
+  html {
+    font-size: 12px;
+  }
+}
 /*!
  * Bootstrap Grid v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -5260,6 +5265,17 @@ button:hover::after {
 .header .main-nav .logo img {
   max-width: 45px;
 }
+.header .main-nav .mobile-menu-items {
+  display: none;
+  padding: 15px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.header .main-nav .mobile-menu-items img {
+  width: 30px;
+}
 .header .main-nav .menu-items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5294,7 +5310,6 @@ button:hover::after {
   background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -5333,6 +5348,39 @@ button:hover::after {
   z-index: -1;
 }
 
+@media (max-width: 1024px) {
+  .header .main-nav {
+    gap: 15px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .header .main-nav .mobile-menu-items {
+    display: block;
+  }
+  .header .main-nav .menu-items {
+    display: none;
+  }
+  section.reach-child-potential .content-container .video-card {
+    position: relative;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    padding-top: 15px;
+  }
+  .header .top-nav {
+    display: none;
+  }
+  .header .hero-section {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .header .hero-section h1 {
+    margin-left: 35px;
+  }
+}
 section.reach-child-potential {
   margin: 50px 0px;
 }
@@ -5419,6 +5467,34 @@ section.reach-child-potential .content-container .video-card .thumbnail-containe
   max-width: 50px;
 }
 
+@media (max-width: 1024px) {
+  section.reach-child-potential .content-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 30px;
+  }
+  section.reach-child-potential .content-container .key-points {
+    max-width: none;
+  }
+  section.reach-child-potential .content-container .video-card {
+    position: relative;
+    right: 0px;
+    max-width: none;
+  }
+}
+@media (max-width: 768px) {
+  section.reach-child-potential .content-container .key-points .info-card {
+    padding: 30px;
+  }
+  section.reach-child-potential .content-container .video-card {
+    margin-bottom: 20px;
+  }
+}
 section.profectum-families {
   margin: 50px 0px;
   position: relative;
@@ -5555,4 +5631,22 @@ section.profectum-families .testimonial-container .testimonial-card .user-info .
 }
 section.profectum-families .testimonial-container .testimonial-card .user-info .usertitle {
   margin: 0px;
+}
+
+@media (max-width: 768px) {
+  section.profectum-families .testimonial-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section.profectum-families .testimonial-container .testimonial-card {
+    max-width: none;
+    margin-bottom: 15px;
+  }
+  section.profectum-families .testimonial-container .testimonial-card:nth-child(2) {
+    margin-top: 0px;
+    margin-left: 0px;
+    z-index: 0;
+  }
 }/*# sourceMappingURL=main.css.map */

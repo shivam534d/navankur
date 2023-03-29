@@ -63,3 +63,35 @@ section.reach-child-potential {
     }
   }
 }
+
+@media (max-width: 1024px) {
+  section.reach-child-potential {
+    .content-container {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 30px;
+      .key-points {
+        max-width: none;
+      }
+      .video-card {
+        position: relative;
+        right: 0px;
+        max-width: none;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  section.reach-child-potential {
+    .content-container {
+      .key-points {
+        .info-card {
+          padding: 30px;
+        }
+      }
+      .video-card {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

@@ -102,3 +102,20 @@ section.profectum-families {
     }
   }
 }
+
+@media (max-width: 768px) {
+  section.profectum-families {
+    .testimonial-container {
+      flex-direction: column;
+      .testimonial-card {
+        max-width: none;
+        margin-bottom: 15px;
+        &:nth-child(2) {
+          margin-top: 0px;
+          margin-left: 0px;
+          z-index: 0;
+        }
+      }
+    }
+  }
+}
