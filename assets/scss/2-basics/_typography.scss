@@ -1,0 +1,51 @@
+//	Root Element Font Size
+html {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+//	Headings
+.gigantic {
+  font-size: 110px;
+  line-height: 1.09;
+  letter-spacing: -2px;
+}
+
+h1,
+.footer-mail {
+  font-size: 3rem;
+  line-height: 1.05;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.14;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.38;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 1.38;
+}
+
+// Basic Text Style
+
+p, 
+a, 
+input[type='text'], 
+input[type='email'], 
+label, 
+textarea {
+  font-size: 1rem;
+  margin: 0 0 20px 0;
+  letter-spacing: 0.055rem;
+}
+
+p, textarea {
+  line-height: 1.5rem;
+}

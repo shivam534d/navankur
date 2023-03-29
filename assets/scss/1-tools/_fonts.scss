@@ -1,0 +1,46 @@
+// Cinzel Bold 700
+h1.decorative-heading {
+  font-family: 'Cinzel', serif;
+}
+  
+// ExtraBold 800
+h1 {
+  font-weight: 800;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+// SemiBold 600
+button, a.btn, .section#not-found-section::before {
+  font-weight: 600;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+// Medium 500
+h2,
+h3,
+h4,
+.tech-stack-text,
+.still-wanna-know-more h1,
+.still-intrested h1, 
+.projects-collection .projects-list .project .project-links .project-link {
+  font-weight: 500;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+// Regular 400
+a {
+  font-weight: 400;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+// Light 300
+p, 
+.footer h2, 
+.footer a, 
+input[type='text'], 
+input[type='email'], 
+label, 
+textarea {
+  font-weight: 300;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}

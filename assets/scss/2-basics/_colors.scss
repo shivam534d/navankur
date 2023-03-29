@@ -1,0 +1,21 @@
+body {
+  background-color: $black;
+}
+
+// Typography Color
+h1, h2, h3, h4, h5, h6, p, a, 
+input::placeholder,
+textarea::placeholder {
+  color: $white;
+}
+
+::selection {
+  color: $on-primary-color;
+  background: $primary-selection-color;
+  text-shadow: none;
+}
+
+// HEADER
+.menu-item {
+  color: $white;
+}

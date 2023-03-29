@@ -1,0 +1,10 @@
+a {
+  color: $primary-color;
+  text-decoration: none;
+  outline: 0;
+
+  &:hover,
+  &:focus {
+    color: lighten($primary-color, 5%);
+  }
+}
