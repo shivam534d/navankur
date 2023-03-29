@@ -5305,7 +5305,7 @@ button:hover::after {
 .header .hero-section {
   width: inherit;
   height: 800px;
-  background-image: url("/assets/img/jpg/hero-section.jpg");
+  background-image: url("../../assets/img/webp/hero-section.webp");
   background-size: cover;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -5501,7 +5501,7 @@ section.profectum-families {
 }
 section.profectum-families::before {
   content: "";
-  background-image: url(/assets/img/png/double-quote.png);
+  background-image: url("../../assets/img/webp/double-quote.webp");
   background-size: contain;
   background-repeat: no-repeat;
   width: 240px;
@@ -5578,7 +5578,7 @@ section.profectum-families .testimonial-container {
 }
 section.profectum-families .testimonial-container::before {
   content: "";
-  background-image: url(/assets/img/png/double-quote.png);
+  background-image: url("../../assets/img/webp/double-quote.webp");
   background-size: contain;
   background-repeat: no-repeat;
   width: 240px;
@@ -5649,4 +5649,4 @@ section.profectum-families .testimonial-container .testimonial-card .user-info .
     margin-left: 0px;
     z-index: 0;
   }
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main-1.3.css.map */

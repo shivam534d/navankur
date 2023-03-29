@@ -3,7 +3,7 @@ section.profectum-families {
   position: relative;
   &::before {
     content: '';
-    background-image: url(/assets/img/webp/double-quote.webp);
+    background-image: url("../../assets/img/webp/double-quote.webp");
     background-size: contain;
     background-repeat: no-repeat;
     width: 240px;
@@ -59,7 +59,7 @@ section.profectum-families {
     margin: 50px 0px 150px 0px;
     &::before {
       content: '';
-      background-image: url(/assets/img/webp/double-quote.webp);
+      background-image: url("../../assets/img/webp/double-quote.webp");
       background-size: contain;
       background-repeat: no-repeat;
       width: 240px;
